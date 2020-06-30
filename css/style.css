@@ -47,6 +47,7 @@ min-height: 100vh;
 background: url(../img/scotland-1761292_1920.jpg) no-repeat;
 padding: 20px 0;
 min-height: 100vh;
+display: flex;
 }
 
 .fullscreen_bg1{
