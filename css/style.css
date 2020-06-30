@@ -1,0 +1,126 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+
+html,body{
+background: #333;
+height: 100%;
+color: #fff;
+font-size: 20px;
+font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.wrapper {
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+}
+
+.fullscreen {
+min-height: 100vh;
+background: url(../img/ochen-krasivye-fony-iz-anime-tvoe-imya-lovtsy-zabytyh-golosov-i-sad-izyashhnyh-slov-makoto-sinkaya-dlya-zoom-3.jpg) no-repeat;
+display: flex;
+padding: 20px 0;
+}
+
+.fullscreen_two{
+background: url(../img/ochen-krasivye-fony-iz-anime-tvoe-imya-lovtsy-zabytyh-golosov-i-sad-izyashhnyh-slov-makoto-sinkaya-dlya-zoom-2.jpg) no-repeat;
+display: flex;
+padding: 20px 0;
+min-height: 100vh;
+}
+
+.fullscreen_three{
+background: url(../img/scotland-1761292_1920.jpg) no-repeat;
+padding: 20px 0;
+min-height: 100vh;
+}
+
+.fullscreen_bg1{
+background: url(../img/procrut1.jpg) center / cover no-repeat fixed;
+}
+
+.fullscreen_bg2{
+background: url(../img/procrut2.jpg) center / cover no-repeat fixed;
+}
+
+.fullscreen__body {
+flex: 1 1 auto;
+max-width: 1000px;
+margin: 0 auto;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 100%;
+padding: 0 20px;
+}
+
+.fullscreen__title {
+font-size: 50px;
+margin: 0 0 20px 0;
+}
+
+.fullscreen__text {
+font-size: 25px;
+margin: 0 0 25px 0;
+}
+
+.fullscreen__link {
+display: inline-block;
+line-height: 50px;
+text-transform: uppercase;
+color: #fff;
+text-decoration: none;
+letter-spacing: 3px;
+background: #556480;
+-ms-align-self: center;
+align-self: center;
+border-radius: 30px;
+padding:0 20px; 
+}
+
+.content {
+
+}
+.content__body {
+padding: 30px 20px;
+max-width: 1000px;
+margin: 0 auto;
+}
+
+.content__body p{
+margin: 0 0 20px 0;
+}
+
+.content__body p:last-child{
+margin 0;
+}
+
+.footer {
+	background: #111;
+	text-align: center;
+}
+
+.footer_body{
+padding: 30px 20px;
+max-width: 1000px;
+margin: 0 auto;
+
+}
+
+
+
